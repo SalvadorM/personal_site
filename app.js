@@ -16,3 +16,6 @@ app.listen(port, function(){
 })
 
 //routes
+app.get('/', function(res, req){
+  res.sendFile('index.html');
+});
