@@ -21,5 +21,5 @@ app.get('/', function(res, req){
 });
 
 app.get('/project001', function(res, req){
-  res.sendFile('index_001.html');
+  res.sendFile(path.join(__dirname, 'index_001.html'));
 });
