@@ -19,3 +19,7 @@ app.listen(port, function(){
 app.get('/', function(res, req){
   res.sendFile('index.html');
 });
+
+app.get('/project-001', function(res, req){
+  res.sendFile('index-001.html');
+});
