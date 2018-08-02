@@ -16,10 +16,10 @@ app.listen(port, function(){
 })
 
 //routes
-app.get('/', function(res, req){
+app.get('/', function(req, res){
   res.sendFile('index.html');
 });
 
-app.get('/project001', function(res, req){
-  res.sendFile(path.join(__dirname+ '/index_001.html'));
+app.get('/project001', function(req, res){
+  res.sendFile('/public/project001.html', { root : __dirname });
 });
