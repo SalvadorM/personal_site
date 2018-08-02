@@ -20,6 +20,6 @@ app.get('/', function(res, req){
   res.sendFile('index.html');
 });
 
-app.get('/project-001', function(res, req){
-  res.sendFile('index-001.html');
+app.get('/project001', function(res, req){
+  res.sendFile('index_001.html');
 });
