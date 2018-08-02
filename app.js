@@ -14,3 +14,5 @@ const port = process.env.PORT || 8080;
 app.listen(port, function(){
   console.log('Server started in port: ' + port);
 })
+
+//routes
