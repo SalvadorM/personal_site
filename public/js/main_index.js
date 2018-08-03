@@ -35,17 +35,7 @@ $(function() {
         $('.burger-box').addClass('scrollNav');
       }
 
-      //Fade in text for gallery
-      if(currS > 220){
-        $('.gallery-text').each(function (e){
-          console.log(e);
-          setTimeout(function(){
-            $('.gallery-text').eq(e).css({
-              'opacity':'1'
-            });
-          }, 100 *(e+1));
-        });
-    }
+
     //set the parallax effect to element
     setCor(0, currS * .1, sideContent);
     setCor(0, currS * -.2, backImg);
