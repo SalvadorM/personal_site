@@ -46,89 +46,42 @@ body {
 	li:first-child {
 		display: none;
 	}
-	/* Main Jumbo */
-	.main-jumbo {
-		position: relative;
-		height: 45vh;
-		overflow: hidden;
-	}
-	.side-jumbo {
-		width: 80%;
-		height: 300px;
-		position: absolute;
-		background-color: black;
-		right: 0;
-		top: 30px;
-		transition: 200ms ease-out;
-	}
-	.side-jumbo:before {
-		content: '';
-		position: absolute;
-		background-size: cover;
-		background-image: url(../images/main-jumbo.jpg);
-		opacity: .8;
-		width: 100%;
-		height: 300px;
-	}
-	.side-content {
-		position: absolute;
-		top: 30%;
-		transition: opacity 500ms ease-in;
-		opacity: 0;
-		transition: 200ms ease-out;
-	}
-	.side-content h1 {
-		margin: 0;
-	}
-	.side-content p {
-		font-size: 1em;
-	}
-	/*Porfolio section*/
+  /* Main container*/
+  .main-container {
+    margin-top: 20px;
+    height: 50vh;
+  }
+  .side {
+    background-color: rgba(77,77,77,.9);
+    height: 300;
+    border-radius: 5px;
+  }
+  .display-4 {
+    color: white;
+  }
+  dt {
+    color: rgb(255,90,51);
+  }
+  dd {
+    color: rgb(225,185,60);
+  }
 
-	.card {
-		border-radius: 5px;
-		cursor: pointer;
-	}
-	.img-container {
-		overflow: hidden;
-		background-color: rgba(0,0,0,1);
-		border-radius: 5px;
-		display: flex;
+  /*Images for ui*/
+  .img-iphone {
+    width: 100%;
+    height: auto;
+    display: flex;
 		align-items: center;
 	 	justify-content: center;
-	}
-	.card-img{
-		width: auto;
-		height: 275px;
-		opacity: .7;
-		transition: 500ms ease-in;
-	}
-	.card-title {
-		color: white;
-	}
-	.card:hover .card-img {
-		opacity: 0.3;
-		transform: scale(1.1);
-	}
-	/* Gallery */
-	.gallery {
-		height: 950px;
-		text-align: center;
-		background-color: rgba(242, 239, 255, .8);
-	}
-	.gallery h2 {
-		margin: 0;
-		padding: 20px;
-		font-size: 2em;
-	}
-	.picture-m {
-		margin: 0 auto;
-		overflow: hidden;
-		width: 85%;
-	}
-	#gallery-pic {
-		width: 100%;
-	}
+  }
+
+  #main-img {
+    margin-top: 20px;
+  }
+  .img {
+    width: 100%;
+    margin: auto;
+  }
 }
 /*
 	Mobile
@@ -249,76 +202,15 @@ body {
 	.rotateM {
 		transform: rotate(90deg);
 	}
-	/* Mobile Main Container */
-	.main-jumbo {
-		overflow: hidden;
-		height: 220px;
-		width: 100%;
-		position: relative;
-		text-align: center;
-		vertical-align: middle;
-		background-color: black;
-		margin-top: 10px;
-	}
-	.side-content {
-		visibility: hidden;
-		opacity: 0;
-		padding-top: 1em;
-		position: relative;
-		transition: opacity 500ms ease-in;
-	}
-	.side-content h1 {
-		margin: 0;
-		font-weight: bolder;
-		font-size: 2.5em;
-		color: white;
-	}
-	.side-content p {
-		color: white;
-	}
-	.side-jumbo {
-		position: absolute;
-		background-size: cover;
-		background-image: url(../images/main-jumbo.jpg);
-		height: 300px;
-		width: 100%;
-		transition: opacity 100ms ease-out;
-		transition: 250ms ease-out;
-		filter: blur(1px);
-		opacity: .8;
-	}
-	.gallery {
-		background-color: rgba(242, 239, 255, .8);
-		height: 700px;
-		margin-top: 50px;
-		position: relative;
-		overflow: hidden;
-		text-align: center;
-	}
-	.picture-m {
-		overflow: hidden;
-		width: 100%;
-		margin: auto;
-	}
-	/*Porfolio mobile section*/
-	.col-12.col-md-4 {
-		margin-bottom: 5px;
-	}
-	.card {
-		position: relative;
-	}
-	.img-container {
-		background-color: rgba(0,0,0,1);
-	}
-	.card-img{
-		opacity: .7;
-	}
-	.card-title {
-		color: white;
-	}
-	/*GALLERY*/
-	#gallery-pic {
-		width: 100%;
-	}
+  /*jummbo img*/
+  .img {
+    width: 100%;
+    margin: auto;
+  }
+}
 
+/*JS*/
+.showT {
+	visibility: visible;
+	opacity: 1;
 }

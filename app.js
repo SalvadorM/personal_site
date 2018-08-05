@@ -23,3 +23,7 @@ app.get('/', function(req, res){
 app.get('/project001', function(req, res){
   res.sendFile('/public/project001.html', { root : __dirname });
 });
+
+app.get('/design/porfolio_design', function(req, res){
+  res.sendFile('/public/design/porfolio_design.html', { root : __dirname });
+});
