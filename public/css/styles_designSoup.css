@@ -302,7 +302,7 @@ body {
 	}
 	#hand-img {
 		width: 100%;
-		transition: 400ms ease-in;
+		transition: 800ms ease-in;
 		transform: translate3d(-100px,-50px,0) rotate(-20deg);
 	}
 
