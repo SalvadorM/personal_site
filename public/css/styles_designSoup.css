@@ -5,7 +5,7 @@ body {
 	margin: 0;
 }
 .container {
-	height: 2000px;
+
 }
 /*
   Devices with min-width of 770px
@@ -74,7 +74,6 @@ body {
 		align-items: center;
 	 	justify-content: center;
   }
-
   #main-img {
     margin-top: 20px;
   }
@@ -82,6 +81,65 @@ body {
     width: 100%;
     margin: auto;
   }
+	.img-i {
+		width: 950px;
+		height: auto;
+	}
+	#iphone-img {
+		padding-left: 100px;
+		transition: opacity 500ms ease-out;
+		opacity: 0;
+	}
+	/*side design card*/
+		.card {
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.img-container {
+			overflow: hidden;
+			background-color: rgba(0,0,0,1);
+			border-radius: 5px;
+			display: flex;
+			align-items: center;
+		 	justify-content: center;
+		}
+		.card-img{
+			width: auto;
+			height: 275px;
+			opacity: .7;
+			transition: 500ms ease-in;
+		}
+		.card-title {
+			color: white;
+		}
+		.card:hover .card-img {
+			opacity: 0.3;
+			transform: scale(1.1);
+		}
+		.card-brand {
+			margin-top: 150px;
+		}
+		/*Gallery of images*/
+		.gallery {
+			margin-top: 30px
+		}
+		.img-con {
+			width: 100%;
+			display: flex;
+			align-items: center;
+		 	justify-content: center;
+		}
+		.img-lg {
+			width: 100%;
+		}
+		/*hand iphone*/
+		.imghand-con {
+			overflow: hidden;
+		}
+		#hand-img {
+			transition: 400ms ease-in;
+			transform: translate3d(-350px,0,0) rotate(-25deg);
+		}
 }
 /*
 	Mobile
@@ -207,10 +265,45 @@ body {
     width: 100%;
     margin: auto;
   }
-}
 
-/*JS*/
-.showT {
-	visibility: visible;
-	opacity: 1;
+	/*iphone card #1*/
+	.img-iphone {
+    width: 100%;
+		overflow: hidden;
+    height: auto;
+    display: flex;
+		align-items: center;
+	 	justify-content: center;
+  }
+	.img-i {
+		width: 800px;
+		padding-left: 100px;
+	}
+	.card-brand {
+		margin-top: 30px;
+	}
+	.img-con {
+			overflow: hidden;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 10px;
+	}
+	.img-lg {
+		width: 100%;
+	}
+	/*hand*/
+	.imghang-img {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#hand-img {
+		width: 100%;
+		transition: 400ms ease-in;
+		transform: translate3d(-100px,-50px,0) rotate(-20deg);
+	}
+
 }

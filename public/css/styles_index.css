@@ -322,3 +322,8 @@ body {
 	}
 
 }
+/*JS*/
+.showT {
+  visibility: visible;
+  opacity: 1;
+}
