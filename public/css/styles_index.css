@@ -11,6 +11,7 @@ hr {
 /*
   Devices with min-width of 770px
 */
+
 @media only screen and (min-width: 770px) {
 	.container {
 		width: 85%;
@@ -86,20 +87,19 @@ hr {
 		font-size: 1em;
 	}
 	/*Porfolio section*/
-
 	.card {
 		border-radius: 5px;
 		cursor: pointer;
 	}
 	.img-container {
 		overflow: hidden;
-		background-color: rgba(0,0,0,1);
+		background-color: rgba(0, 0, 0, 1);
 		border-radius: 5px;
 		display: flex;
 		align-items: center;
-	 	justify-content: center;
+		justify-content: center;
 	}
-	.card-img{
+	.card-img {
 		width: auto;
 		height: 275px;
 		opacity: .7;
@@ -112,11 +112,11 @@ hr {
 		opacity: 0.3;
 		transform: scale(1.1);
 	}
-
 }
 /*
 	Mobile
 */
+
 @media only screen and (max-width: 769px) {
 	/* mobile nav */
 	header {
@@ -272,8 +272,6 @@ hr {
 		filter: blur(1px);
 		opacity: .8;
 	}
-
-
 	/*Porfolio mobile section*/
 	.col-12.col-md-4 {
 		margin-bottom: 5px;
@@ -282,19 +280,18 @@ hr {
 		position: relative;
 	}
 	.img-container {
-		background-color: rgba(0,0,0,1);
+		background-color: rgba(0, 0, 0, 1);
 	}
-	.card-img{
+	.card-img {
 		opacity: .7;
 	}
 	.card-title {
 		color: white;
 	}
-
-
 }
 /*JS*/
+
 .showT {
-  visibility: visible;
-  opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
