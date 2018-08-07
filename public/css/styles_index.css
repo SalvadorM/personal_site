@@ -4,8 +4,9 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0;
 }
-.container {
-	height: 2000px;
+hr {
+	visibility: hidden;
+	margin-bottom: 20px;
 }
 /*
   Devices with min-width of 770px
@@ -30,6 +31,7 @@ body {
 		right: 0;
 	}
 	.burger-box {
+		margin-right: 2.5%;
 		display: none;
 	}
 	a, ul li {
@@ -110,25 +112,7 @@ body {
 		opacity: 0.3;
 		transform: scale(1.1);
 	}
-	/* Gallery */
-	.gallery {
-		height: 950px;
-		text-align: center;
-		background-color: rgba(242, 239, 255, .8);
-	}
-	.gallery h2 {
-		margin: 0;
-		padding: 20px;
-		font-size: 2em;
-	}
-	.picture-m {
-		margin: 0 auto;
-		overflow: hidden;
-		width: 85%;
-	}
-	#gallery-pic {
-		width: 100%;
-	}
+
 }
 /*
 	Mobile
@@ -151,6 +135,7 @@ body {
 		transform: skew(-15deg);
 	}
 	.container {
+		padding: 0;
 		margin: 0 auto;
 		width: 95%;
 	}
@@ -189,7 +174,7 @@ body {
 		width: 2.7em;
 		transition: all 500ms ease-in;
 		position: fixed;
-		right: 2.5%;
+		right: 5%;
 	}
 	.icon {
 		position: absolute;
@@ -287,19 +272,8 @@ body {
 		filter: blur(1px);
 		opacity: .8;
 	}
-	.gallery {
-		background-color: rgba(242, 239, 255, .8);
-		height: 700px;
-		margin-top: 50px;
-		position: relative;
-		overflow: hidden;
-		text-align: center;
-	}
-	.picture-m {
-		overflow: hidden;
-		width: 100%;
-		margin: auto;
-	}
+
+
 	/*Porfolio mobile section*/
 	.col-12.col-md-4 {
 		margin-bottom: 5px;
@@ -316,10 +290,7 @@ body {
 	.card-title {
 		color: white;
 	}
-	/*GALLERY*/
-	#gallery-pic {
-		width: 100%;
-	}
+
 
 }
 /*JS*/

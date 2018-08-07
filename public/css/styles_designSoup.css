@@ -140,6 +140,34 @@ body {
 			transition: 400ms ease-in;
 			transform: translate3d(-350px,0,0) rotate(-25deg);
 		}
+
+		/*
+					SELF BRAND
+		*/
+		.jumbo {
+			margin-top: 20px;
+			width: 100%;
+			height: auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#jumbo-gif {
+			width: 85%;
+			height: auto;
+		}
+		.img-ip {
+			width: 400px;
+			height: auto;
+		}
+		.img-ipad {
+			width: 900px;
+			height: auto;
+		}
+		.showItem {
+			opacity: 0;
+			transition: 500ms ease-in;
+		}
 }
 /*
 	Mobile
@@ -305,5 +333,33 @@ body {
 		transition: 800ms ease-in;
 		transform: translate3d(-100px,-50px,0) rotate(-20deg);
 	}
+
+			/*
+						SELF BRAND
+			*/
+			.jumbo {
+				margin-top: 8px;
+				width: 100%;
+				height: auto;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#jumbo-gif {
+				width: 100%;
+				height: auto;
+			}
+			.img-ip {
+				width: 90%;
+				height: auto;
+			}
+			.img-ipad {
+				width: 400px;
+				height: auto;
+			}
+			.showItem {
+				opacity: 0;
+				transition: 500ms ease-in;
+			}
 
 }

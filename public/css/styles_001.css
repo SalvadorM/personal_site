@@ -181,6 +181,7 @@ hr {
 	}
 	.navli ul {
 		list-style-type: none;
+		padding: 0;
 	}
 	/* Body */
 	.top-section {
