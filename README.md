@@ -1,6 +1,5 @@
 # Salvador Munoz Site
-
-Personal Site to publish school projects and other work
+Personal site to publish school work and other projects !
 [Website](https://salvadormunoz.herokuapp.com/)
 
 
