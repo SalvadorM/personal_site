@@ -1,4 +1,4 @@
-# Movie Poll
+# Salvador Munoz site
 
 Get the most popular movie now playing and vote on your favorite !
 [Website](https://moviepasspoll.herokuapp.com/)
